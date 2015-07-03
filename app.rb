@@ -11,6 +11,6 @@ class LinguineRackApp
   def call env
     status, headers, res = @app.call(env)
     response = @linguine.parse(res, env)
-    [status, headers, response]
+    response.finish
   end
 end
