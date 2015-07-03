@@ -1,7 +1,7 @@
 require 'rspec'
 require 'simple_cache'
 
-module Linguine
+module LinguineRack
   describe SimpleCache do
 
     subject { described_class.new }

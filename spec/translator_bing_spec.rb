@@ -2,7 +2,7 @@ require 'rspec'
 require 'support/translator_example'
 require 'translator/bing'
 
-module Linguine
+module LinguineRack
   module Translator
     describe Bing do
       subject { described_class.new 'linguine', '88t/KdxyT8xOyCsylmywine/D5YWm71SZTm3UnjY/x4=' }

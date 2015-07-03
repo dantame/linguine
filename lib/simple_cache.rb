@@ -1,4 +1,4 @@
-module Linguine
+module LinguineRack
   class SimpleCache
 
     def initialize cache = {}

@@ -1,7 +1,7 @@
 require 'google_translate'
 require 'google_translate/result_parser'
 
-module Linguine
+module LinguineRack
   module Translator
     class Google
 

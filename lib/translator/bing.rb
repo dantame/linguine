@@ -2,7 +2,7 @@ require 'net/http'
 require 'json'
 require 'nokogiri'
 
-module Linguine
+module LinguineRack
   module Translator
     class Bing
 
